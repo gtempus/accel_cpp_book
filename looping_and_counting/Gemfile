@@ -1,0 +1,5 @@
+group :development do
+  gem 'guard'
+  gem 'guard-shell'
+  gem 'rb-inotify', '~> 0.9'
+end
