@@ -7,7 +7,7 @@ add_definitions(-std=c++0x)
 set(CMAKE_CXX_FLAGS "${CMAXE_CXX_FLAGS} -Wall")
 
 set(sources 
-  student_grades.cpp)
+  3-2.cpp)
 add_executable(hw ${sources})
 add_executable(test ${sources})
 target_link_libraries(test pthread)
