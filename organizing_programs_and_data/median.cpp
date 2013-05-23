@@ -4,8 +4,6 @@
 #include <stdexcept>
 #include <vector>
 
-#include "gtest/gtest.h"
-
 using std::domain_error;
 using std::sort;
 using std::vector;
