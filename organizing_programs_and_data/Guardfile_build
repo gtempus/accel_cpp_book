@@ -7,6 +7,6 @@
 ignore %r{^ignored/path/}, /build/
 guard 'shell' do
   watch(/(.*).cpp/) do |m|
-    system('cd build && cmake .. && make && ./test_runner && ./hw < ../grades.txt')
+    system('cd build && cmake .. && make && ./test')
   end
 end
